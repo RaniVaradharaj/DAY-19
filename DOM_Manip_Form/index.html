@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <p id="description">This is a DOM Manipulated Form</p>
+
+    <form action="" id="form">
+        <div class="form-group">
+
+            <label for="fname">First Name</label>
+            <input type="text" name="" id="first-name" placeholder="Enter your First Name" required>
+
+            <label for="lname">Last Name</label>
+            <input type="text" name="" id="last-name" placeholder="Enter your Last Name" required>
+
+            <label for="address">Address</label>
+            <textarea type="text" id="address" placeholder="Enter Your Permanent Address" required></textarea>
+
+            <label for="pincode">Pincode</label>
+            <input type="text" id="pincode" placeholder="Enter your Pincode" required>
+
+            <label for="radio">Gender</label><br>
+            <input type="radio" name="radio" required>Male
+            <input type="radio" name="radio" required>Female<br><br>
+
+            <label for="food">Food Choices</label>
+            <input type="checkbox" name="">Rasagulla<br><br>
+            <input type="checkbox" name="">Chicken Shwarma<br><br>
+            <input type="checkbox" name="">Paneer Burj<br><br>
+            <input type="checkbox" name="">Biriyani<br><br>
+            <input type="checkbox" name="">Masal Dosa<br><br>
+
+            <button class="btn btn-primary" id="submit"></button>
+
+        </div>
+
+
+    </form>
+
+    <table class="table">
+        <h1 id="title">Form</h1>
+        <thead>
+            <th></th>
+            <tr></tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+
+
+    <script src="./script.js"></script>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+
+</body>
+
+</html>
